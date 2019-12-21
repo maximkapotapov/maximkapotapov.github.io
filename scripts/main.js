@@ -17,7 +17,7 @@ var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
-	var myName = prompt ('Введите имя, пожалуйста')
+	var myName = prompt('Введите имя, пожалуйста')
 	localStorage.setItem('name', myName);
 	myHeading.textContent = 'Привет, ' + myName;
 }
